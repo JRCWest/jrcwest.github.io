@@ -1,6 +1,0 @@
-# Site settings
-title: Try-hard programming with J-West
-baseurl: /blog
-# Build settings
-pygments: true
-markdown: kramdown
