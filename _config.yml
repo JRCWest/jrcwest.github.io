@@ -1,5 +1,6 @@
 # Site settings
 title: Try-hard programming with J-West
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/j-west.github.io/" # the subpath of your site, e.g. /blog/
 # Build settings
+pygments: true
 markdown: kramdown
