@@ -1,0 +1,5 @@
+# Site settings
+title: Try-hard programming with J-West
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+# Build settings
+markdown: kramdown
