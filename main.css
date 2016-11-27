@@ -1,5 +1,135 @@
 /***** Nav Bar *****/
-.navbar-icon {
-margin-top: 8px;
-margin-right: 12px;
+#navbar-icon1, #navbar-icon2 {
+	margin: 8px 0 0 15px;
+}
+
+#navbar-icon2 {
+	margin: 8px 15px 0 15px;
+}
+#navbar-space1, #navbar-space2 {
+	padding: 0;
+}
+
+#icon-bar-color {
+	color: #FFF;
+}
+
+.spacing {
+	margin-top: 6em;
+}
+.center-text {
+	text-align: center;
+}
+
+.content-border {
+	margin-top: .5em;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+div.spacing p {
+	font-family: "Roboto Slab", serif;
+	line-height: 1.8;
+}
+
+.my-photo {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 2em 0;
+}
+
+.zero-margin {
+	margin-bottom: 0;
+}
+
+.hero-text {
+	background-size: contain;
+	margin-top: 0;
+	text-align: center;
+	height: 30em;
+	background-image: url(images/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text h1 {
+	font-size: 5em;
+	padding-top: 10%;
+	margin-top: 0;
+	color: rgb(255, 255, 255);
+}
+
+.hero-text h2 {
+	color: rgb(255, 255, 255)
+}
+
+.carousel-photos {
+	height: auto;
+}
+
+/***** Lightbox styles *****/
+
+#lightbox .modal-content {
+  display: inline-block;
+  text-align: center;
+}
+
+#lightbox .close {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 25, 25);
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: -15px;
+  right: -55px;
+  z-index:1032;
+}
+ .border-top {
+	 border-top: 2px solid #000;
+ }
+
+ #projects-heading {
+	 text-align: center;
+	 font-family: "Bungee Inline", sans-serif;
+	font-size: 3em;
+ }
+
+/***** Media Queries *****/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.spacing {
+		margin-top: 2em;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	div.spacing p {
+ 	 padding: 0 1em;
+ }
+ .spacing {
+	 margin-top: 2em;
+ }
+ .my-photo {
+ 	margin: 1em auto;
+ }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.hero-text h1 {
+	font-size: 3em;
+	padding-top: 20%;
+}
+.hero-text h2 {
+	font-size: 1.5em;
+}
+.spacing {
+ margin-top: 2em;
+}
 }
