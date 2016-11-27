@@ -1,51 +1,16 @@
 /***** Nav Bar *****/
+
 #navbar-icon1, #navbar-icon2 {
-	margin: 8px 0 0 15px;
+	margin: 8px 15px 0 0;
 }
 
-#navbar-icon2 {
-	margin: 8px 15px 0 15px;
-}
 #navbar-space1, #navbar-space2 {
 	padding: 0;
 }
 
-#icon-bar-color {
-	color: #FFF;
-}
-
-.spacing {
-	margin-top: 6em;
-}
-.center-text {
-	text-align: center;
-}
-
-.content-border {
-	margin-top: .5em;
-	border-left: 2px solid #000;
-	border-right: 2px solid #000;
-}
-
-div.spacing p {
-	font-family: "Roboto Slab", serif;
-	line-height: 1.8;
-}
-
-.my-photo {
-	height: 300px;
-	width: 300px;
-	border: 1px solid #000;
-	border-radius: 50%;
-	margin: 2em 0;
-}
-
-.zero-margin {
-	margin-bottom: 0;
-}
+/***** Background Image and Heading text *****/
 
 .hero-text {
-	background-size: contain;
 	margin-top: 0;
 	text-align: center;
 	height: 30em;
@@ -65,8 +30,29 @@ div.spacing p {
 	color: rgb(255, 255, 255)
 }
 
-.carousel-photos {
-	height: auto;
+/***** About section *****/
+
+.content-border {
+	margin-top: .5em;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.my-photo {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 2em 0;
+}
+
+div.about-top-spacing p {
+	font-family: "Roboto Slab", serif;
+	line-height: 1.8;
+}
+
+.about-top-spacing {
+	margin-top: 6em;
 }
 
 /***** Lightbox styles *****/
@@ -92,6 +78,9 @@ div.spacing p {
 	 border-top: 2px solid #000;
  }
 
+
+/***** Projects section *****/
+
  #projects-heading {
 	 text-align: center;
 	 font-family: "Bungee Inline", sans-serif;
@@ -102,18 +91,18 @@ div.spacing p {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	.spacing {
+	.about-top-spacing {
 		margin-top: 2em;
 	}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	div.spacing p {
- 	 padding: 0 1em;
+	div.about-top-spacing p {
+ 	 margin: 0 1.5em 1em;
  }
- .spacing {
-	 margin-top: 2em;
+ .about-top-spacing {
+	 margin-top: 1em;
  }
  .my-photo {
  	margin: 1em auto;
@@ -129,7 +118,7 @@ div.spacing p {
 .hero-text h2 {
 	font-size: 1.5em;
 }
-.spacing {
+.about-top-spacing {
  margin-top: 2em;
 }
 }
