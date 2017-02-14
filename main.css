@@ -1,0 +1,124 @@
+/***** Nav Bar *****/
+
+#navbar-icon1, #navbar-icon2 {
+	margin: 8px 15px 0 0;
+}
+
+#navbar-space1, #navbar-space2 {
+	padding: 0;
+}
+
+/***** Background Image and Heading text *****/
+
+.hero-text {
+	margin-top: 0;
+	text-align: center;
+	height: 30em;
+	background-image: url(images/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text h1 {
+	font-size: 5em;
+	padding-top: 10%;
+	margin-top: 0;
+	color: rgb(255, 255, 255);
+}
+
+.hero-text h2 {
+	color: rgb(255, 255, 255)
+}
+
+/***** About section *****/
+
+.content-border {
+	margin-top: .5em;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.my-photo {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 2em 0;
+}
+
+div.about-top-spacing p {
+	font-family: "Roboto Slab", serif;
+	line-height: 1.8;
+}
+
+.about-top-spacing {
+	margin-top: 6em;
+}
+
+/***** Lightbox styles *****/
+
+#lightbox .modal-content {
+  display: inline-block;
+  text-align: center;
+}
+
+#lightbox .close {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 25, 25);
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: -15px;
+  right: -55px;
+  z-index:1032;
+}
+ .border-top {
+	 border-top: 2px solid #000;
+ }
+
+
+/***** Projects section *****/
+
+ #projects-heading {
+	 text-align: center;
+	 font-family: "Bungee Inline", sans-serif;
+	font-size: 3em;
+ }
+
+/***** Media Queries *****/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.about-top-spacing {
+		margin-top: 2em;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	div.about-top-spacing p {
+ 	 margin: 0 1.5em 1em;
+ }
+ .about-top-spacing {
+	 margin-top: 1em;
+ }
+ .my-photo {
+ 	margin: 1em auto;
+ }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.hero-text h1 {
+	font-size: 3em;
+	padding-top: 20%;
+}
+.hero-text h2 {
+	font-size: 1.5em;
+}
+.about-top-spacing {
+ margin-top: 2em;
+}
+}
